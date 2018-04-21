@@ -1,4 +1,4 @@
-package lesson.a.java.di;
+package lesson.a.ten.java.di;
 
 public interface Isort {
 	

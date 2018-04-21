@@ -1,5 +1,10 @@
-package lesson.a.java.di;
+package lesson.b.spring.di.basic;
 
+import org.springframework.stereotype.Component;
+
+import lesson.a.ten.java.di.Isort;
+
+@Component
 public class SelectionSort implements Isort{
 
 	@Override

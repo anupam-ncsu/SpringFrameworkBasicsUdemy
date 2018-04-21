@@ -1,7 +1,13 @@
-package lesson.a.java.di;
+package lesson.b.spring.di.basic;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+
+@Component
 public class SortThenSearch {
 	
+	@Autowired
 	private Isort sort;
 	
 	public SortThenSearch(Isort sort) {

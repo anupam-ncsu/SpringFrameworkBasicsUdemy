@@ -1,4 +1,7 @@
-package lesson.a.java.di;
+package lesson.b.spring.di.basic;
+
+import lesson.a.ten.java.di.Isort;
+
 
 public class BubbleSort implements Isort {
 
